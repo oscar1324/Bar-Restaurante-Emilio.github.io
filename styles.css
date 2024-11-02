@@ -140,9 +140,24 @@ section {
 .menu-link a:hover {
     background-color: #eee; /* Fondo claro al pasar el ratón */
     border-radius: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.bar{
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+.menu-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+}
 /* Estilos cabecera  */
 header {
     background-color: #333;
